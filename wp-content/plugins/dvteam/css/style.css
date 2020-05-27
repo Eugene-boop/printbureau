@@ -283,7 +283,6 @@ html {
 .dvteamgrid li {
     float: left;
     padding: 0px !important;
-    margin: 0px !important;
     opacity: 1;
     width: 200px;
     list-style: none !important;
