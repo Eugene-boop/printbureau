@@ -41,21 +41,20 @@
 	</style>
 
 
-	<link rel='stylesheet' id='validate-engine-css-css'
-		href='wp-content\plugins\wysija-newsletters\css\validationEngine.jquery.css?ver=2.13' type='text/css' media='all'>
+
 	<link rel='stylesheet' id='jquery.contactus.css-css'
 		href='wp-content\plugins\ar-contactus\res\css\jquery.contactus.min.css?ver=1.0.3' type='text/css' media='all'>
-	<link rel='stylesheet' id='wp-block-library-css' href='wp-includes\css\dist\block-library\style.min.css?ver=5.4.1'
-		type='text/css' media='all'>
-	<link rel='stylesheet' id='wc-block-style-css'
-		href='wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\style.css?ver=2.5.16' type='text/css'
-		media='all'>
-	<link rel='stylesheet' id='dvteam_fix-css' href='wp-content\plugins\dvteam\css\fix.css?ver=1.0' type='text/css'
-		media='all'>
-	<link rel='stylesheet' id='formcraft-common-css'
-		href='wp-content\plugins\formcraft3\dist\formcraft-common.css?ver=3.7.2' type='text/css' media='all'>
-	<link rel='stylesheet' id='formcraft-form-css' href='wp-content\plugins\formcraft3\dist\form.css?ver=3.7.2'
-		type='text/css' media='all'>
+	<style>
+		.dvteamgrid {
+			list-style-type: none !important;
+			position: relative;
+			margin: 0px !important;
+			padding: 0px !important;
+			overflow: hidden !important;
+			visibility: hidden;
+		}
+	</style>
+
 	<link rel='stylesheet' id='rs-plugin-settings-css'
 		href='wp-content\plugins\revslider\public\assets\css\settings.css?ver=5.4.8' type='text/css' media='all'>
 	<style id='rs-plugin-settings-inline-css' type='text/css'>
@@ -63,17 +62,6 @@
 	</style>
 	<link rel='stylesheet' id='tmls-testimonials-css'
 		href='wp-content\plugins\tmls_testimonials\css\testimonials.css?ver=5.4.1' type='text/css' media='all'>
-	<link rel='stylesheet' id='vpc-css'
-		href='wp-content\plugins\visual-product-configurator\public\css\vpc-public.css?ver=1.0.0' type='text/css'
-		media='all'>
-	<link rel='stylesheet' id='o-flexgrid-css'
-		href='wp-content\plugins\visual-product-configurator\admin\css\flexiblegs.css?ver=1.0.0' type='text/css'
-		media='all'>
-	<link rel='stylesheet' id='woocommerce-layout-css'
-		href='wp-content\plugins\woocommerce\assets\css\woocommerce-layout.css?ver=4.1.0' type='text/css' media='all'>
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'
-		href='wp-content\plugins\woocommerce\assets\css\woocommerce-smallscreen.css?ver=4.1.0' type='text/css'
-		media='only screen and (max-width: 768px)'>
 	<link rel='stylesheet' id='woocommerce-general-css'
 		href='wp-content\plugins\woocommerce\assets\css\woocommerce.css?ver=4.1.0' type='text/css' media='all'>
 	<style id='woocommerce-inline-inline-css' type='text/css'>
@@ -158,20 +146,12 @@
 			right: 0;
 		}
 	</style>
-	<link rel='stylesheet' id='ywau-frontend-css'
-		href='wp-content\plugins\yith-woocommerce-additional-uploads\assets\css\ywau-frontend.css?ver=5.4.1' type='text/css'
-		media='all'>
 	<link rel='stylesheet' id='mfn-base-css' href='wp-content\themes\betheme\css\base.css?ver=20.9.6.1' type='text/css'
 		media='all'>
 	<link rel='stylesheet' id='mfn-layout-css' href='wp-content\themes\betheme\css\layout.css?ver=20.9.6.1'
 		type='text/css' media='all'>
 	<link rel='stylesheet' id='mfn-shortcodes-css' href='wp-content\themes\betheme\css\shortcodes.css?ver=20.9.6.1'
 		type='text/css' media='all'>
-	<link rel='stylesheet' id='mfn-jquery-ui-css'
-		href='wp-content\themes\betheme\assets\ui\jquery.ui.all.css?ver=20.9.6.1' type='text/css' media='all'>
-	<link rel='stylesheet' id='mfn-jplayer-css'
-		href='wp-content\themes\betheme\assets\jplayer\css\jplayer.blue.monday.css?ver=20.9.6.1' type='text/css'
-		media='all'>
 	<link rel='stylesheet' id='mfn-responsive-css' href='wp-content\themes\betheme\css\responsive.css?ver=20.9.6.1'
 		type='text/css' media='all'>
 	<link rel='stylesheet' id='Montserrat-css'
@@ -183,227 +163,18 @@
 	<link rel='stylesheet' id='Oswald-css'
 		href='https://fonts.googleapis.com/css?family=Oswald%3A1%2C300%2C400%2C400italic%2C500&ver=5.4.1' type='text/css'
 		media='all'>
-	<link rel='stylesheet' id='jquery-data-tables-css'
-		href='wp-content\plugins\woocommerce-product-table\assets\css\datatables\datatables.min.css?ver=1.10.16'
-		type='text/css' media='all'>
-	<link rel='stylesheet' id='wc-product-table-css'
-		href='wp-content\plugins\woocommerce-product-table\assets\css\wc-product-table.min.css?ver=2.2.2' type='text/css'
-		media='all'>
-	<style id='wc-product-table-inline-css' type='text/css'>
-		table.wc-product-table.no-footer {
-			border-bottom-width: 0;
-		}
-
-		table.wc-product-table {
-			border-style: solid !important;
-			border-width: 1px !important;
-			border-color: #ededed !important;
-		}
-
-		table.wc-product-table thead th {
-			border-bottom-style: solid !important;
-			border-bottom-width: 1px !important;
-			border-bottom-color: #cccccc !important;
-		}
-
-		table.wc-product-table tfoot th {
-			border-top-style: solid !important;
-			border-top-width: 1px !important;
-			border-top-color: #cccccc !important;
-		}
-
-		table.wc-product-table td,
-		table.wc-product-table th {
-			border-width: 0;
-		}
-
-		table.wc-product-table td,
-		table.wc-product-table th {
-			border-left-style: solid !important;
-			border-left-width: 1px !important;
-			border-left-color: #e0e0e0 !important;
-		}
-
-		table.wc-product-table td:first-child,
-		table.wc-product-table td.control[style*="none"]+td,
-		table.wc-product-table th:first-child {
-			border-left: none !important;
-		}
-
-		table.wc-product-table td {
-			border-top-style: solid !important;
-			border-top-width: 1px !important;
-			border-top-color: #e0e0e0 !important;
-		}
-
-		table.wc-product-table tbody tr:first-child td {
-			border-top: none !important;
-		}
-
-		table.wc-product-table thead,
-		table.wc-product-table tfoot {
-			background-color: transparent;
-		}
-
-		table.wc-product-table th {
-			background-color: #f4f7fa !important;
-		}
-
-		table.wc-product-table tbody tr {
-			background-color: transparent !important;
-		}
-
-		table.wc-product-table tbody td {
-			background-color: #f9f9f9 !important;
-		}
-
-		table.wc-product-table th {
-			color: #111111 !important;
-		}
-
-		table.wc-product-table tbody td {
-			color: #919191 !important;
+	<style>
+		@font-face {
+			font-family: 'Font Awesome 5 Free';
+			font-style: normal;
+			font-weight: 900;
+			src: url(../fonts/fa-solid-900.eot);
+			src: url(../fonts/fa-solid-900-1.eot) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff"), url(../fonts/fa-solid-900.bin) format("truetype"), url(../fonts/fa-solid-900.svg) format("svg")
 		}
 	</style>
-
 	<link rel='stylesheet' id='the-grid-css'
 		href='wp-content\plugins\the-grid\frontend\assets\css\the-grid.min.css?ver=2.6.60' type='text/css' media='all'>
-	<style id='the-grid-inline-css' type='text/css'>
-		.tolb-holder {
-			background: rgba(0, 0, 0, 0.8)
-		}
 
-		.tolb-holder .tolb-close,
-		.tolb-holder .tolb-title,
-		.tolb-holder .tolb-counter,
-		.tolb-holder .tolb-next i,
-		.tolb-holder .tolb-prev i {
-			color: #ffffff
-		}
-
-		.tolb-holder .tolb-load {
-			border-color: rgba(255, 255, 255, 0.2);
-			border-left: 3px solid #ffffff
-		}
-
-		.to-heart-icon,
-		.to-heart-icon svg,
-		.to-post-like,
-		.to-post-like .to-like-count {
-			position: relative;
-			display: inline-block
-		}
-
-		.to-post-like {
-			width: auto;
-			cursor: pointer;
-			font-weight: 400
-		}
-
-		.to-heart-icon {
-			float: left;
-			margin: 0 4px 0 0
-		}
-
-		.to-heart-icon svg {
-			overflow: visible;
-			width: 15px;
-			height: 14px
-		}
-
-		.to-heart-icon g {
-			-webkit-transform: scale(1);
-			transform: scale(1)
-		}
-
-		.to-heart-icon path {
-			-webkit-transform: scale(1);
-			transform: scale(1);
-			transition: fill .4s ease, stroke .4s ease
-		}
-
-		.no-liked .to-heart-icon path {
-			fill: #999;
-			stroke: #999
-		}
-
-		.empty-heart .to-heart-icon path {
-			fill: transparent !important;
-			stroke: #999
-		}
-
-		.liked .to-heart-icon path,
-		.to-heart-icon svg:hover path {
-			fill: #ff6863 !important;
-			stroke: #ff6863 !important
-		}
-
-		@keyframes heartBeat {
-			0% {
-				transform: scale(1)
-			}
-
-			20% {
-				transform: scale(.8)
-			}
-
-			30% {
-				transform: scale(.95)
-			}
-
-			45% {
-				transform: scale(.75)
-			}
-
-			50% {
-				transform: scale(.85)
-			}
-
-			100% {
-				transform: scale(.9)
-			}
-		}
-
-		@-webkit-keyframes heartBeat {
-
-			0%,
-			100%,
-			50% {
-				-webkit-transform: scale(1)
-			}
-
-			20% {
-				-webkit-transform: scale(.8)
-			}
-
-			30% {
-				-webkit-transform: scale(.95)
-			}
-
-			45% {
-				-webkit-transform: scale(.75)
-			}
-		}
-
-		.heart-pulse g {
-			-webkit-animation-name: heartBeat;
-			animation-name: heartBeat;
-			-webkit-animation-duration: 1s;
-			animation-duration: 1s;
-			-webkit-animation-iteration-count: infinite;
-			animation-iteration-count: infinite;
-			-webkit-transform-origin: 50% 50%;
-			transform-origin: 50% 50%
-		}
-
-		.to-post-like a {
-			color: inherit !important;
-			fill: inherit !important;
-			stroke: inherit !important
-		}
-	</style>
-	<link rel='stylesheet' id='mfn-woo-css' href='wp-content\themes\betheme\css\woocommerce.css?ver=20.9.6.1'
-		type='text/css' media='all'>
 	<link rel='https://api.w.org/' href='wp-json\index.json'>
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://armansch.beget.tech/xmlrpc.php?rsd">
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes\wlwmanifest.xml">
@@ -4116,14 +3887,12 @@
 											src="wp-content\uploads\2018\09\Logotip-93_1.png"
 											data-retina="wp-content\uploads\2018\09\Logotip-93_1.png" data-height="93" alt="Логотип-93_1"><img
 											class="logo-sticky scale-with-grid" src="wp-content\uploads\2018\09\Logo-belyj.png"
-											data-retina="http://armansch.beget.tech/wp-content/uploads/2018/09/Logo-belyj.png"
-											data-height="150" alt="Лого белый"><img class="logo-mobile scale-with-grid"
-											src="http://armansch.beget.tech/wp-content/uploads/2018/09/Логотип-93.png"
-											data-retina="http://armansch.beget.tech/wp-content/uploads/2018/09/Logotip-93_1.png"
-											data-height="93" alt="Логотип 93"><img class="logo-mobile-sticky scale-with-grid"
-											src="wp-content\uploads\2018\09\Logotip-93_1.png"
-											data-retina="http://armansch.beget.tech/wp-content/uploads/2018/09/Logotip-93_1.png"
-											data-height="93" alt="Логотип-93_1"></a></div>
+											data-retina="wp-content\uploads\2018\09\Logo-belyj.png" data-height="150" alt="Лого белый"><img
+											class="logo-mobile scale-with-grid" src="wp-content\uploads\2018\09\Logotip-93_1.png"
+											data-retina="wp-content\uploads\2018\09\Logotip-93_1.png" data-height="93" alt="Логотип 93"><img
+											class="logo-mobile-sticky scale-with-grid" src="wp-content\uploads\2018\09\Logotip-93_1.png"
+											data-retina="wp-content\uploads\2018\09\Logotip-93_1.png" data-height="93" alt="Логотип-93_1"></a>
+								</div>
 								<div class="menu_wrapper">
 									<nav id="menu">
 										<ul id="menu-levoe-2" class="menu menu-main menu_left">
@@ -4343,6 +4112,7 @@
 																	data-hoffset="" data-y="center" data-voffset="25"
 																	data-width="['none','none','none','none']" data-height="['none','none','none','none']"
 																	data-type="image" data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":0,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4356,7 +4126,8 @@
 																<div class="tp-caption   tp-resizeme" id="slide-10-layer-44" data-x="320" data-y="-48"
 																	data-width="['none','none','none','none']" data-height="['none','none','none','none']"
 																	data-type="image" data-responsive_offset="on"
-																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+1270.0518798828","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+																	data-transition="Fade Through Black"
+																	data-frames=''
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
 																	data-paddingleft="[0,0,0,0]" style="z-index: 6;"><img
@@ -4369,6 +4140,7 @@
 																<div class="tp-caption custom_white_36px   tp-resizeme" id="slide-10-layer-3"
 																	data-x="516" data-y="center" data-voffset="51" data-width="['auto']"
 																	data-height="['auto']" data-type="text" data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Bounce.easeOut"},{"delay":"+2090.1043701172","speed":600,"frame":"999","ease":"nothing"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4381,6 +4153,7 @@
 																	data-x="center" data-hoffset="166" data-y="center" data-voffset="147"
 																	data-width="['auto']" data-height="['auto']" data-type="text"
 																	data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Bounce.easeOut"},{"delay":"+2090.1043701172","speed":600,"frame":"999","ease":"Back.easeOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4393,6 +4166,7 @@
 																<div class="tp-caption   tp-resizeme" id="slide-10-layer-20" data-x="519"
 																	data-y="center" data-voffset="-85" data-width="['auto']" data-height="['auto']"
 																	data-type="text" data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+2090.1043701172","speed":600,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4406,6 +4180,7 @@
 																<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-10-layer-34"
 																	data-x="485" data-y="165" data-width="['3']" data-height="['254']" data-type="shape"
 																	data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+1270.0518798828","speed":300,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4416,6 +4191,7 @@
 																<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-10-layer-22"
 																	data-x="495" data-y="108" data-width="['3']" data-height="['239']" data-type="shape"
 																	data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+1270.0518798828","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4426,6 +4202,7 @@
 																<div class="tp-caption   tp-resizeme" id="slide-10-layer-24" data-x="787" data-y="73"
 																	data-width="['none','none','none','none']" data-height="['none','none','none','none']"
 																	data-type="image" data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":780,"frame":"0","to":"o:1;rZ:342;","ease":"Power3.easeInOut"},{"delay":"+790.05187988281","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4439,6 +4216,7 @@
 																<div class="tp-caption   tp-resizeme" id="slide-10-layer-48" data-x="-492" data-y=""
 																	data-width="['none','none','none','none']" data-height="['none','none','none','none']"
 																	data-type="image" data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+1270.0518798828","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4452,6 +4230,7 @@
 																<div class="tp-caption   tp-resizeme" id="slide-10-layer-49" data-x="709" data-y=""
 																	data-width="['none','none','none','none']" data-height="['none','none','none','none']"
 																	data-type="image" data-responsive_offset="on"
+																	data-transition="Fade Through Black"
 																	data-frames='[{"delay":9.8956298828125,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+1270.0518798828","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 																	data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 																	data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
@@ -4587,35 +4366,59 @@
 															display: flex;
 															flex-wrap: wrap;
 														}
-														 {
+
+															{
 															margin: 0 !important;
 														}
+
 														.main-grid-elem {
 															margin-left: 20px !important;
 															margin-bottom: 20px !important;
 														}
-														.main-grid-elem:nth-of-type(1), .main-grid-elem:nth-of-type(6), .main-grid-elem:nth-of-type(11) {
+
+														.main-grid-elem:nth-of-type(1),
+														.main-grid-elem:nth-of-type(6),
+														.main-grid-elem:nth-of-type(11) {
 															margin-left: 0px !important;
 														}
+
 														@media (max-width:1240px) {
-															.main-grid-elem:nth-of-type(1), .main-grid-elem:nth-of-type(6), .main-grid-elem:nth-of-type(11) {
+
+															.main-grid-elem:nth-of-type(1),
+															.main-grid-elem:nth-of-type(6),
+															.main-grid-elem:nth-of-type(11) {
 																margin-left: 20px !important;
 															}
-															.main-grid-elem:nth-of-type(1), .main-grid-elem:nth-of-type(5), .main-grid-elem:nth-of-type(9), .main-grid-elem:nth-of-type(13) {
+
+															.main-grid-elem:nth-of-type(1),
+															.main-grid-elem:nth-of-type(5),
+															.main-grid-elem:nth-of-type(9),
+															.main-grid-elem:nth-of-type(13) {
 																margin-left: 0px !important;
 															}
+
 															.main-grid-elem {
 																width: 220px !important;
 															}
 														}
 
 														@media (max-width:959px) {
-															.main-grid-elem:nth-of-type(1), .main-grid-elem:nth-of-type(5), .main-grid-elem:nth-of-type(9), .main-grid-elem:nth-of-type(13) {
+
+															.main-grid-elem:nth-of-type(1),
+															.main-grid-elem:nth-of-type(5),
+															.main-grid-elem:nth-of-type(9),
+															.main-grid-elem:nth-of-type(13) {
 																margin-left: 20px !important;
 															}
-															.main-grid-elem:nth-of-type(1), .main-grid-elem:nth-of-type(4), .main-grid-elem:nth-of-type(7), .main-grid-elem:nth-of-type(10), .main-grid-elem:nth-of-type(13) {
+
+															.main-grid-elem:nth-of-type(1),
+															.main-grid-elem:nth-of-type(4),
+															.main-grid-elem:nth-of-type(7),
+															.main-grid-elem:nth-of-type(10),
+															.main-grid-elem:nth-of-type(13) {
 																margin-left: 0px !important;
 															}
+
 															.main-grid-elem {
 																width: 222px !important;
 															}
@@ -4625,7 +4428,17 @@
 															.main-grid-elem {
 																width: 100% !important;
 															}
-															.main-grid-elem:nth-of-type(3), .main-grid-elem:nth-of-type(2), .main-grid-elem:nth-of-type(5), .main-grid-elem:nth-of-type(6), .main-grid-elem:nth-of-type(8), .main-grid-elem:nth-of-type(9), .main-grid-elem:nth-of-type(11), .main-grid-elem:nth-of-type(12),.main-grid-elem:nth-of-type(14), .main-grid-elem:nth-of-type(15) {
+
+															.main-grid-elem:nth-of-type(3),
+															.main-grid-elem:nth-of-type(2),
+															.main-grid-elem:nth-of-type(5),
+															.main-grid-elem:nth-of-type(6),
+															.main-grid-elem:nth-of-type(8),
+															.main-grid-elem:nth-of-type(9),
+															.main-grid-elem:nth-of-type(11),
+															.main-grid-elem:nth-of-type(12),
+															.main-grid-elem:nth-of-type(14),
+															.main-grid-elem:nth-of-type(15) {
 																margin-left: 0px !important;
 															}
 														}
@@ -4634,7 +4447,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270273654" href="#dvteambox19100270273654"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\09\vizitki3-600x550.jpg" alt="Визитки">
+																<img class="lazyload" data-src="wp-content\uploads\2018\09\vizitki3-600x550.jpg"
+																	alt="Визитки">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4663,7 +4477,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274146" href="#dvteambox19100270274146"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2011\11\Katalog-600x550.jpg" alt="Брошюры">
+																<img class="lazyload" data-src="wp-content\uploads\2011\11\Katalog-600x550.jpg"
+																	alt="Брошюры">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4677,7 +4492,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274137" href="#dvteambox19100270274137"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\paket-1-600x550.jpg" alt="Пакеты">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\paket-1-600x550.jpg"
+																	alt="Пакеты">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4691,7 +4507,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270273653" href="#dvteambox19100270273653"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\naklejki-600x550.jpg" alt="Наклейки и стикеры">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\naklejki-600x550.jpg"
+																	alt="Наклейки и стикеры">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4705,7 +4522,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274145" href="#dvteambox19100270274145"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\kalendar-600x550.jpg" alt="Календари">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\kalendar-600x550.jpg"
+																	alt="Календари">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4719,7 +4537,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274147" href="#dvteambox19100270274147"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\otkrytka-600x550.jpg" alt="Открытки">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\otkrytka-600x550.jpg"
+																	alt="Открытки">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4733,7 +4552,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274142" href="#dvteambox19100270274142"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\Blanki-600x551.jpg" alt="Приглашения">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\Blanki-600x551.jpg"
+																	alt="Приглашения">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4747,7 +4567,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274135" href="#dvteambox19100270274135"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\Bloknoty-600x550.jpg" alt="Блокноты">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\Bloknoty-600x550.jpg"
+																	alt="Блокноты">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4761,7 +4582,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274141" href="#dvteambox19100270274141"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\Konverty-600x550.jpg" alt="Конверты">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\Konverty-600x550.jpg"
+																	alt="Конверты">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4775,7 +4597,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274140" href="#dvteambox19100270274140"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\papki-600x550.jpg" alt="Папки">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\papki-600x550.jpg"
+																	alt="Папки">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4789,7 +4612,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270273652" href="#dvteambox19100270273652"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\maketiroovanie-600x550.jpg" alt="POS-материалы">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\maketiroovanie-600x550.jpg"
+																	alt="POS-материалы">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4803,7 +4627,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274143" href="#dvteambox19100270274143"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2012\11\kredytka-600x550.jpg" alt="Пластиковые карты">
+																<img class="lazyload" data-src="wp-content\uploads\2012\11\kredytka-600x550.jpg"
+																	alt="Пластиковые карты">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4817,7 +4642,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274148" href="#dvteambox19100270274148"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\plakat-600x550.jpg" alt="Широкоформатная печать">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\plakat-600x550.jpg"
+																	alt="Широкоформатная печать">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -4831,7 +4657,8 @@
 														<figure>
 															<a id="dvgridboxlink19100270274144" href="#dvteambox19100270274144"
 																class="popup-with-zoom-anim">
-																<img class="lazyload" data-src="wp-content\uploads\2018\11\Buklety-1-600x550.jpg" alt="Сувенирная продукция">
+																<img class="lazyload" data-src="wp-content\uploads\2018\11\Buklety-1-600x550.jpg"
+																	alt="Сувенирная продукция">
 																<div class="dv-member-zoom"></div>
 															</a>
 															<figcaption>
@@ -5323,8 +5150,8 @@
 </tr>
 </tbody>
 </table> -->
-				<img class="lazyload" data-src="img/vizitki_table.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-					style="width: 100%;">
+				<img class="lazyload" data-src="img/vizitki_table.png"
+					alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 				<p>Стоимость визиток на других видах бумаги уточняйте у наших менеджеров.</p>
 				<p><img class="wp-image-3065 aligncenter" src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png"
 						alt="" width="579" height="13"
@@ -5542,7 +5369,8 @@
 				<div class="catalog_top">
 					<div></div>
 				</div>
-				<p><img data-src="http://mnogovizitok.ru/images/pakety_polietilen.png" alt="" width="500" height="182" class="lazyload"></p>
+				<p><img data-src="http://mnogovizitok.ru/images/pakety_polietilen.png" alt="" width="500" height="182"
+						class="lazyload"></p>
 				<div class="catalog_top">
 					<div>
 						<p><strong>Пакет пвд 30х40 / 20х30</strong></p>
@@ -5551,8 +5379,8 @@
 					</div>
 				</div>
 				<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">1+0</div></th><th><div align="center">2+0</div></th><th><div align="center">3+0</div></th><th><div align="center">4+0</div></th><th><div align="center">5+0</div></th><th><div align="center">6+0</div></th></tr><tr><td><div align="center">50 шт.</div></td><td><div align="center">60 руб.</div></td><td><div align="center">108 руб.</div></td><td><div align="center">156 руб.</div></td><td><div align="center">202 руб.</div></td><td><div align="center">246 руб.</div></td><td><div align="center">291 руб.</div></td></tr><tr><td><div align="center">100 шт.</div></td><td><div align="center">41 руб.</div></td><td><div align="center">74 руб.</div></td><td><div align="center">105 руб.</div></td><td><div align="center">136 руб.</div></td><td><div align="center">166 руб.</div></td><td><div align="center">196 руб.</div></td></tr><tr><td><div align="center">300 шт.</div></td><td><div align="center">21 руб.</div></td><td><div align="center">35 руб.</div></td><td><div align="center">49 руб.</div></td><td><div align="center">62 руб.</div></td><td><div align="center">75 руб.</div></td><td><div align="center">94 руб.</div></td></tr><tr><td><div align="center">500 шт.</div></td><td><div align="center">15 руб.</div></td><td><div align="center">24 руб.</div></td><td><div align="center">32 руб.</div></td><td><div align="center">41 руб.</div></td><td><div align="center">49 руб.</div></td><td><div align="center">57 руб.</div></td></tr><tr><td><div align="center">1000 шт.</div></td><td><div align="center">13 руб.</div></td><td><div align="center">20 руб.</div></td><td><div align="center">27 руб.</div></td><td><div align="center">34 руб.</div></td><td><div align="center">41 руб.</div></td><td><div align="center">47 руб.</div></td></tr><tr><td><div align="center">2000 шт.</div></td><td><div align="center">11 руб.</div></td><td><div align="center">17 руб.</div></td><td><div align="center">22 руб.</div></td><td><div align="center">28 руб.</div></td><td><div align="center">34 руб.</div></td><td><div align="center">39 руб.</div></td></tr><tr><td><div align="center">3000 шт.</div></td><td><div align="center">10 руб.</div></td><td><div align="center">16 руб.</div></td><td><div align="center">21 руб.</div></td><td><div align="center">27 руб.</div></td><td><div align="center">32 руб.</div></td><td><div align="center">38 руб.</div></td></tr><tr><td><div align="center">5000 шт.</div></td><td><div align="center">9 руб.</div></td><td><div align="center">14 руб.</div></td><td><div align="center">19 руб.</div></td><td><div align="center">23 руб.</div></td><td><div align="center">28 руб.</div></td><td><div align="center">33 руб.</div></td></tr><tr><td><div align="center">10000 шт.</div></td><td><div align="center">8 руб.</div></td><td><div align="center">13 руб.</div></td><td><div align="center">18 руб.</div></td><td><div align="center">&#8212;</div></td><td><div align="center">&#8212;</div></td><td><div align="center">&#8212;</div></td></tr></tbody></table> -->
-				<img class="lazyload" data-src="img/pakety_table1.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-					style="width: 100%;">
+				<img class="lazyload" data-src="img/pakety_table1.png"
+					alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 				<p>Пакет ПСД 70 мкм + 1,50 руб.</p>
 				<p>В стоимость печати включен белый пакет 30х40 см или 20х30 см, толщина 50-70 мкм.<br>
 					Максимальный размер печати 30х30 см.<br>
@@ -5572,8 +5400,8 @@
 							</div>
 						</div>
 						<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">1+0</div></th><th><div align="center">2+0</div></th><th><div align="center">3+0</div></th><th><div align="center">4+0</div></th><th><div align="center">5+0</div></th><th><div align="center">6+0</div></th></tr><tr><td><div align="center">50 шт.</div></td><td><div align="center">61 руб.</div></td><td><div align="center">110 руб.</div></td><td><div align="center">158 руб.</div></td><td><div align="center">204 руб.</div></td><td><div align="center">248 руб.</div></td><td><div align="center">293 руб.</div></td></tr><tr><td><div align="center">100 шт.</div></td><td><div align="center">43 руб.</div></td><td><div align="center">76 руб.</div></td><td><div align="center">107 руб.</div></td><td><div align="center">138 руб.</div></td><td><div align="center">168 руб.</div></td><td><div align="center">198 руб.</div></td></tr><tr><td><div align="center">300 шт.</div></td><td><div align="center">22 руб.</div></td><td><div align="center">37 руб.</div></td><td><div align="center">51 руб.</div></td><td><div align="center">64 руб.</div></td><td><div align="center">77 руб.</div></td><td><div align="center">96 руб.</div></td></tr><tr><td><div align="center">500 шт.</div></td><td><div align="center">16 руб.</div></td><td><div align="center">26 руб.</div></td><td><div align="center">34 руб.</div></td><td><div align="center">43 руб.</div></td><td><div align="center">51 руб.</div></td><td><div align="center">59 руб.</div></td></tr><tr><td><div align="center">1000 шт.</div></td><td><div align="center">14 руб.</div></td><td><div align="center">22 руб.</div></td><td><div align="center">29 руб.</div></td><td><div align="center">36 руб.</div></td><td><div align="center">43 руб.</div></td><td><div align="center">49 руб.</div></td></tr><tr><td><div align="center">2000 шт.</div></td><td><div align="center">12 руб.</div></td><td><div align="center">19 руб.</div></td><td><div align="center">24 руб.</div></td><td><div align="center">30 руб.</div></td><td><div align="center">36 руб.</div></td><td><div align="center">41 руб.</div></td></tr><tr><td><div align="center">3000 шт.</div></td><td><div align="center">11 руб.</div></td><td><div align="center">18 руб.</div></td><td><div align="center">23 руб.</div></td><td><div align="center">29 руб.</div></td><td><div align="center">34 руб.</div></td><td><div align="center">40 руб.</div></td></tr><tr><td><div align="center">5000 шт.</div></td><td><div align="center">10 руб.</div></td><td><div align="center">16 руб.</div></td><td><div align="center">21 руб.</div></td><td><div align="center">25 руб.</div></td><td><div align="center">30 руб.</div></td><td><div align="center">35 руб.</div></td></tr><tr><td><div align="center">10000 шт.</div></td><td><div align="center">10 руб.</div></td><td><div align="center">15 руб.</div></td><td><div align="center">20 руб.</div></td><td><div align="center">&#8212;</div></td><td><div align="center">&#8212;</div></td><td><div align="center">&#8212;</div></td></tr></tbody></table> -->
-						<img class="lazyload" data-src="img/pakety_table2.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-							style="width: 100%;">
+						<img class="lazyload" data-src="img/pakety_table2.png"
+							alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 						<p>Пакет ПСД 70 мкм + 1,50 руб.</p>
 						<p>Пакет ПВД 100 мкм + 3 руб.</p>
 						<p>В стоимость печати включен белый пакет 40х50 см или 50х40 см, толщина 50-70 мкм.<br>
@@ -5592,8 +5420,8 @@
 							</div>
 						</div>
 						<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">1+0</div></th><th><div align="center">2+0</div></th><th><div align="center">3+0</div></th><th><div align="center">4+0</div></th><th><div align="center">5+0</div></th><th><div align="center">6+0</div></th></tr><tr><td><div align="center">50 шт.</div></td><td><div align="center">64 руб.</div></td><td><div align="center">113 руб.</div></td><td><div align="center">161 руб.</div></td><td><div align="center">207 руб.</div></td><td><div align="center">251 руб.</div></td><td><div align="center">296 руб.</div></td></tr><tr><td><div align="center">100 шт.</div></td><td><div align="center">46 руб.</div></td><td><div align="center">79 руб.</div></td><td><div align="center">110 руб.</div></td><td><div align="center">141 руб.</div></td><td><div align="center">171 руб.</div></td><td><div align="center">201 руб.</div></td></tr><tr><td><div align="center">300 шт.</div></td><td><div align="center">25 руб.</div></td><td><div align="center">40 руб.</div></td><td><div align="center">54 руб.</div></td><td><div align="center">67 руб.</div></td><td><div align="center">80 руб.</div></td><td><div align="center">99 руб.</div></td></tr><tr><td><div align="center">500 шт.</div></td><td><div align="center">19 руб.</div></td><td><div align="center">29 руб.</div></td><td><div align="center">37 руб.</div></td><td><div align="center">46 руб.</div></td><td><div align="center">54 руб.</div></td><td><div align="center">62 руб.</div></td></tr><tr><td><div align="center">1000 шт.</div></td><td><div align="center">17 руб.</div></td><td><div align="center">25 руб.</div></td><td><div align="center">32 руб.</div></td><td><div align="center">39 руб.</div></td><td><div align="center">46 руб.</div></td><td><div align="center">52 руб.</div></td></tr><tr><td><div align="center">2000 шт.</div></td><td><div align="center">15 руб.</div></td><td><div align="center">22 руб.</div></td><td><div align="center">27 руб.</div></td><td><div align="center">33 руб.</div></td><td><div align="center">39 руб.</div></td><td><div align="center">44 руб.</div></td></tr><tr><td><div align="center">3000 шт.</div></td><td><div align="center">14 руб.</div></td><td><div align="center">21 руб.</div></td><td><div align="center">26 руб.</div></td><td><div align="center">32 руб.</div></td><td><div align="center">37 руб.</div></td><td><div align="center">43 руб.</div></td></tr><tr><td><div align="center">5000 шт.</div></td><td><div align="center">13 руб.</div></td><td><div align="center">19 руб.</div></td><td><div align="center">24 руб.</div></td><td><div align="center">28 руб.</div></td><td><div align="center">33 руб.</div></td><td><div align="center">38 руб.</div></td></tr><tr><td><div align="center">10000 шт.</div></td><td><div align="center">13 руб.</div></td><td><div align="center">18 руб.</div></td><td><div align="center">23 руб.</div></td><td><div align="center">&#8212;</div></td><td><div align="center">&#8212;</div></td><td><div align="center">&#8212;</div></td></tr></tbody></table> -->
-						<img class="lazyload" data-src="img/pakety_table3.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-							style="width: 100%;">
+						<img class="lazyload" data-src="img/pakety_table3.png"
+							alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 						<p>В стоимость печати включен белый пакет 50х60 см или 60х50 см, толщина 50-70 мкм.<br>
 							Максимальный размер печати 30х30 см.<br>
 							Цветной пакет + 1,5 руб.<br>
@@ -5698,8 +5526,8 @@
 					</div>
 				</div>
 				<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">7Х10 СМ</div></th><th><div align="center">10Х15 СМ</div></th><th><div align="center">15Х20 СМ</div></th><th><div align="center">21Х30 СМ</div></th><th><div align="center">30Х42 СМ</div></th><th><div align="center">42Х60 СМ</div></th></tr><tr><td><div align="center">500 шт.</div></td><td><div align="center">4050 руб.</div></td><td><div align="center">7750 руб.</div></td><td><div align="center">11800 руб.</div></td><td><div align="center">14900 руб.</div></td><td><div align="center">17950 руб.</div></td><td><div align="center">22900 руб.</div></td></tr><tr><td><div align="center">1000 шт.</div></td><td><div align="center">7750 руб.</div></td><td><div align="center">11800 руб.</div></td><td><div align="center">14900 руб.</div></td><td><div align="center">17950 руб.</div></td><td><div align="center">22900 руб.</div></td><td><div align="center">32200 руб.</div></td></tr><tr><td><div align="center">2000 шт.</div></td><td><div align="center">11800 руб.</div></td><td><div align="center">14900 руб.</div></td><td><div align="center">17950 руб.</div></td><td><div align="center">22900 руб.</div></td><td><div align="center">32200 руб.</div></td><td><div align="center">52600 руб.</div></td></tr><tr><td><div align="center">3000 шт.</div></td><td><div align="center">13300 руб.</div></td><td><div align="center">16400 руб.</div></td><td><div align="center">20450 руб.</div></td><td><div align="center">27500 руб.</div></td><td><div align="center">47850 руб.</div></td><td><div align="center">69300 руб.</div></td></tr><tr><td><div align="center">4000 шт.</div></td><td><div align="center">14900 руб.</div></td><td><div align="center">17950 руб.</div></td><td><div align="center">22900 руб.</div></td><td><div align="center">32200 руб.</div></td><td><div align="center">52600 руб.</div></td><td><div align="center">91600 руб.</div></td></tr><tr><td><div align="center">5000 шт.</div></td><td><div align="center">17050 руб.</div></td><td><div align="center">19200 руб.</div></td><td><div align="center">25400 руб.</div></td><td><div align="center">36500 руб.</div></td><td><div align="center">61300 руб.</div></td><td><div align="center">112000 руб.</div></td></tr><tr><td><div align="center">10000 шт.</div></td><td><div align="center">19200 руб.</div></td><td><div align="center">25400 руб.</div></td><td><div align="center">36500 руб.</div></td><td><div align="center">65000 руб.</div></td><td><div align="center">112000 руб.</div></td><td><div align="center">213600 руб.</div></td></tr></tbody></table> -->
-				<img class="lazyload" data-src="img/nakleiki_table3.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-					style="width: 100%;">
+				<img class="lazyload" data-src="img/nakleiki_table3.png"
+					alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 				<p>&nbsp;</p>
 			</div>
 			<div class="col-md-6">Виды наклеек:<br>
@@ -6178,14 +6006,15 @@
 						</div>
 					</div>
 					<!-- <table class="catalog" style="height: 560px;" width="491" cellspacing="1px"><tbody><tr><th></th><th>I КАТ.</th><th>II КАТ.</th><th>III КАТ.</th></tr><tr><td><p align="left">Верстка визитки по образцу (эскизу) заказчика</p></td><td><p align="center">200 руб.</p></td><td><p align="center">400 руб.</p></td><td><p align="center">600 руб.</p></td></tr><tr><td><p align="left">Доработка макета визитки (изменение имени, должности, адреса, контактов, конвертация AI, EPS, PDF в CDR)</p></td><td><p align="center">50 руб.</p></td><td><p align="center"></p></td><td><p align="center"></p></td></tr><tr><td><p align="left">Логотип (разработка)</p></td><td><p align="center">3000 руб.</p></td><td><p align="center">6000 руб.</p></td><td><p align="center">10000 руб.</p></td></tr><tr><td><p align="left">Логотип (векторизация, отрисовка), товарный знак и т.п.</p></td><td><p align="center">500 руб.</p></td><td><p align="center">1500 руб.</p></td><td><p align="center">3500 руб.</p></td></tr><tr><td><p align="left">Схема проезда (векторизация, отрисовка)</p></td><td><p align="center">700 руб.</p></td><td><p align="center">1400 руб.</p></td><td><p align="center">2000 руб.</p></td></tr><tr><td><p align="left">Визитная карточка (разработка, дизайн)</p></td><td><p align="center">500 руб.</p></td><td><p align="center">1000 руб.</p></td><td><p align="center">1500 руб.</p></td></tr><tr><td><p align="left">Фирменный бланк</p></td><td><p align="center">500 руб.</p></td><td><p align="center">1000 руб.</p></td><td><p align="center">1500 руб.</p></td></tr><tr><td><p align="left">Папка/блокнот</p></td><td><p align="center">500 руб.</p></td><td><p align="center">1500 руб.</p></td><td><p align="center">2500 руб.</p></td></tr><tr><td><p align="left">Бейдж</p></td><td><p align="center">400 руб.</p></td><td><p align="center">600 руб.</p></td><td><p align="center">800 руб.</p></td></tr><tr><td><p align="left">Флаер, приглашение, открытка 4+4</p></td><td><p align="center">700 руб.</p></td><td><p align="center">1500 руб.</p></td><td><p align="center">2500 руб.</p></td></tr><tr><td><p align="left">Диплом, грамота, сертификат</p></td><td><p align="center">700 руб.</p></td><td><p align="center">1500 руб.</p></td><td><p align="center">2500 руб.</p></td></tr><tr><td><p align="left">Фирменный стиль &#171;начальный&#187; (логотип, именная и корпоративная визитки, бланк, конверт, папка)</p></td><td><p align="center">от 10000 руб.</p></td><td><p align="center"></p></td><td><p align="center"></p></td></tr><tr><td><p align="left">Листовка 4+4</p></td><td><p align="center">800 руб.</p></td><td><p align="center">1600 руб.</p></td><td><p align="center">2400 руб.</p></td></tr><tr><td><p align="left">Буклет 4+4 (1, 2 фальца)</p></td><td><p align="center">1000 руб.</p></td><td><p align="center">2000 руб.</p></td><td><p align="center">3000 руб.</p></td></tr><tr><td><p align="left">Дизайн и верстка полосы</p></td><td><p align="center">150 руб.</p></td><td><p align="center">300 руб.</p></td><td><p align="center">600 руб.</p></td></tr><tr><td><p align="left">Карманный календарь</p></td><td><p align="center">400 руб.</p></td><td><p align="center">600 руб.</p></td><td><p align="center">1000 руб.</p></td></tr><tr><td><p align="left">Календарь-домик</p></td><td><p align="center">400 руб.</p></td><td><p align="center">600 руб.</p></td><td><p align="center">1000 руб.</p></td></tr><tr><td><p align="left">Календарь-домик перекидной (за страницу)</p></td><td><p align="center">400 руб.</p></td><td><p align="center">600 руб.</p></td><td><p align="center">1000 руб.</p></td></tr><tr><td><p align="left">Настенный квартальный календарь (цена за дизайн обложки и 3 рекламных поля)</p></td><td><p align="center">600 руб.</p></td><td><p align="center">1000 руб.</p></td><td><p align="center">1500 руб.</p></td></tr><tr><td><p align="left">Настенный перекидной календарь А3, А2 (за страницу)</p></td><td><p align="center">300 руб.</p></td><td><p align="center">600 руб.</p></td><td><p align="center">900 руб.</p></td></tr><tr><td><p align="left">Постер, календарь-постер, афиша А3, А2, А1</p></td><td><p align="center">600 руб.</p></td><td><p align="center">1000 руб.</p></td><td><p align="center">1500 руб.</p></td></tr><tr><td><p align="left">Баннер/наклейки до 9 м2 (больше цена удваивается)</p></td><td><p align="center">350 руб.</p></td><td><p align="center">700 руб.</p></td><td><p align="center">1000 руб.</p></td></tr><tr><td><p align="left">Штендер</p></td><td><p align="center">400 руб.</p></td><td><p align="center">800 руб.</p></td><td><p align="center">1200 руб.</p></td></tr><tr><td><p align="left">Обработка картинок под печать (задание нужного размера, разрешения, системы цветности)</p></td><td><p align="center">до 10шт. бесплатно</p></td><td><p align="center">&gt;10 &#8212; 80 руб./шт.</p></td><td><p align="center"></p></td></tr><tr><td><p align="left">Обработка/ретушь/обтравка фотографий/иллюстраций (за шт)</p></td><td><p align="center">50 руб.</p></td><td><p align="center">150 руб.</p></td><td><p align="center">300 руб.</p></td></tr><tr><td><p align="left">Подбор/поиск иллюстраций/фотографий в банке изображений (за шт)</p></td><td><p align="center">50 руб.</p></td><td><p align="center">150 руб.</p></td><td><p align="center">300 руб.</p></td></tr><tr><td><p align="left">Набор текста (А4 и меньше) кегель 12</p></td><td><p align="center">300 руб.</p></td><td><p align="center"></p></td><td><p align="center"></p></td></tr><tr><td><p align="left">Подбор цвета с тестовой распечаткой А4, 4 варианта</p></td><td><p align="center">300 руб.</p></td><td><p align="center"></p></td><td><p align="center"></p></td></tr><tr><td><p align="left">Добавление поля &#171;на вылет&#187;</p></td><td><p align="center">100 руб.</p></td><td><p align="center">300 руб.</p></td><td><p align="center">500 руб.</p></td></tr><tr><td><p align="left">Работа с дизайнером (1 час)</p></td><td><p align="center">800 руб.</p></td><td><p align="center"></p></td><td><div align="center"></div></td></tr></tbody></table> -->
-					<img class="lazyload" data-src="img/pos_table1.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-						style="width: 100%;">
-					<p><img class="lazyload" data-src="http://mnogovizitok.ru/images/broshuri.png" alt="" width="149" height="140"><img
-						class="lazyload" data-src="http://mnogovizitok.ru/images/buklet-1.png" alt="" width="155" height="140"><img
-						class="lazyload" data-src="http://mnogovizitok.ru/images/calendar-2.png" alt="" width="122" height="140"><img
-						class="lazyload" data-src="http://mnogovizitok.ru/images/flaera-2.png" alt="" width="119" height="140"><img
-						class="lazyload" data-src="http://mnogovizitok.ru/files/portfolio/portfolio-vizitki/vizitki-3.png" alt="" width="163"
-							height="100"></p>
+					<img class="lazyload" data-src="img/pos_table1.png"
+						alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
+					<p><img class="lazyload" data-src="http://mnogovizitok.ru/images/broshuri.png" alt="" width="149"
+							height="140"><img class="lazyload" data-src="http://mnogovizitok.ru/images/buklet-1.png" alt=""
+							width="155" height="140"><img class="lazyload" data-src="http://mnogovizitok.ru/images/calendar-2.png"
+							alt="" width="122" height="140"><img class="lazyload"
+							data-src="http://mnogovizitok.ru/images/flaera-2.png" alt="" width="119" height="140"><img
+							class="lazyload" data-src="http://mnogovizitok.ru/files/portfolio/portfolio-vizitki/vizitki-3.png" alt=""
+							width="163" height="100"></p>
 					<p>&nbsp;</p>
 					<p>Доработка &#8212; добавить вылеты (при более-менее однотонном фоне), исправить цифры/буквы (не более одной
 						надписи), заретушировать пару артефактов &#8212; БЕСПЛАТНО</p>
@@ -6209,8 +6038,8 @@
 					<li class="catalog_top" style="text-align: left;">качества предоставляемых материалов;</li>
 					<li class="catalog_top" style="text-align: left;">физического размера файлов</li>
 				</ul>
-				<p><img class="lazyload wp-image-3065 aligncenter" data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png"
-						alt="" width="579" height="13"
+				<p><img class="lazyload wp-image-3065 aligncenter"
+						data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 						srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
 						sizes="(max-width: 579px) 100vw, 579px"></p>
 			</div>
@@ -6226,8 +6055,8 @@
 
 
 		<div class="dv-panel-inner">
-			<p><img class="lazyload wp-image-3065 aligncenter" data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt=""
-					width="579" height="13"
+			<p><img class="lazyload wp-image-3065 aligncenter"
+					data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 					srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
 					sizes="(max-width: 579px) 100vw, 579px"></p>
 			<p style="text-align: center;"><a class="button  button_left button_size_2 button_js" href="shop\index.htm"
@@ -6254,13 +6083,13 @@
 					<h3>Цены на изготовление пластиковых карт</h3>
 				</div>
 				<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">100</div></th><th><div align="center">500</div></th><th><div align="center">1000</div></th><th><div align="center">3000</div></th><th><div align="center">5000</div></th><th><div align="center">10000</div></th></tr><tr><td><div align="left">Печать 1+1</div></td><td><div align="center">2400 р.</div></td><td><div align="center">9750 р.</div></td><td><div align="center">9000 р.</div></td><td><div align="center">25650 р.</div></td><td><div align="center">39000 р.</div></td><td><div align="center">60000 р.</div></td></tr><tr><td><div align="left">Печать 4+4</div></td><td><div align="center">2400 р.</div></td><td><div align="center">9750 р.</div></td><td><div align="center">12000 р.</div></td><td><div align="center">31500 р.</div></td><td><div align="center">45000 р.</div></td><td><div align="center">67500 р.</div></td></tr><tr><td><div align="left">Эмбоссирование</div></td><td><div align="center">600 р.</div></td><td><div align="center">2250 р.</div></td><td><div align="center">3000 р.</div></td><td><div align="center">6750 р.</div></td><td><div align="center">7500 р.</div></td><td><div align="center">10500 р.</div></td></tr><tr><td><div align="left">Штрих-код,</div><div align="left">печатная нумерация</div></td><td><div align="center">600 р.</div></td><td><div align="center">2250 р.</div></td><td><div align="center">3000 р.</div></td><td><div align="center">6750 р.</div></td><td><div align="center">7500 р.</div></td><td><div align="center">15000 р.</div></td></tr><tr><td><div align="left">Маг. кодирование</div></td><td><div align="center">600 р.</div></td><td><div align="center">2250 р.</div></td><td><div align="center">3000 р.</div></td><td><div align="center">6750 р.</div></td><td><div align="center">7500 р.</div></td><td><div align="center">15000 р.</div></td></tr><tr><td><div align="left">Полоса для подписи</div></td><td><div align="center">600 р.</div></td><td><div align="center">2250 р.</div></td><td><div align="center">3000 р.</div></td><td><div align="center">6750 р.</div></td><td><div align="center">11250 р.</div></td><td><div align="center">22500 р.</div></td></tr><tr><td><div align="left">Скретч-панель</div></td><td><div align="center">600 р.</div></td><td><div align="center">2250 р.</div></td><td><div align="center">3000 р.</div></td><td><div align="center">6750 р.</div></td><td><div align="center">11250 р.</div></td><td><div align="center">22500 р.</div></td></tr></tbody></table> -->
-				<img class="lazyload" data-src="img/card_table1.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-					style="width: 100%;">
+				<img class="lazyload" data-src="img/card_table1.png"
+					alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 				<p>Цена в рублях за 1 карту с учетом белого стандартного пластика.</p>
 				<p>Доплата за цветной пластик (золотой, серебряный, цветной пластик из каталога) — 3,75</p>
 				<p>Доплата за магнитные полосы: LoCo — 3,00, HiCo — 3,75</p>
-				<p><img class="lazyload wp-image-3065 aligncenter" data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png"
-						alt="" width="579" height="13"
+				<p><img class="lazyload wp-image-3065 aligncenter"
+						data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 						srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
 						sizes="(max-width: 579px) 100vw, 579px"></p>
 			</div>
@@ -6276,8 +6105,8 @@
 
 
 		<div class="dv-panel-inner">
-			<p><img class="lazyload wp-image-3065 aligncenter" data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt=""
-					width="579" height="13"
+			<p><img class="lazyload wp-image-3065 aligncenter"
+					data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 					srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
 					sizes="(max-width: 579px) 100vw, 579px"></p>
 			<p style="text-align: center;"><a class="button  button_left button_size_2 button_js" href="shop\index.htm"
@@ -6299,8 +6128,8 @@
 				ламинация.</div>
 			<div></div>
 			<div></div>
-			<div><img class="lazyload wp-image-3065 aligncenter" data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png"
-					alt="" width="579" height="13"
+			<div><img class="lazyload wp-image-3065 aligncenter"
+					data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 					srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
 					sizes="(max-width: 579px) 100vw, 579px"></div>
 		</div>
@@ -6315,8 +6144,8 @@
 
 
 		<div class="dv-panel-inner">
-			<p><img class="lazyload wp-image-3065 aligncenter" data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt=""
-					width="579" height="13"
+			<p><img class="lazyload wp-image-3065 aligncenter"
+					data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 					srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
 					sizes="(max-width: 579px) 100vw, 579px"></p>
 			<p style="text-align: center;"><a class="button  button_left button_size_2 button_js" href="shop\index.htm"
@@ -6358,14 +6187,15 @@
 				<div align="center">
 					<div class="catalog_top">
 						<div>
-							<p><img class="lazyload" data-src="http://mnogovizitok.ru/images/buklet-1.png" alt="" width="299" height="271"><img
-								class="lazyload" data-src="http://mnogovizitok.ru/images/buklet-2.png" alt="" width="300" height="307"></p>
+							<p><img class="lazyload" data-src="http://mnogovizitok.ru/images/buklet-1.png" alt="" width="299"
+									height="271"><img class="lazyload" data-src="http://mnogovizitok.ru/images/buklet-2.png" alt=""
+									width="300" height="307"></p>
 							<h3>Буклеты А4 (210х297мм.)</h3>
 						</div>
 					</div>
 					<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">1+0</div></th><th><div align="center">1+1</div></th><th><div align="center">4+0</div></th><th><div align="center">4+1</div></th><th><div align="center">4+4</div></th></tr><tr><td><div align="center">10 шт.</div></td><td><div align="center">275 руб.</div></td><td><div align="center">360 руб.</div></td><td><div align="center">335 руб.</div></td><td><div align="center">400 руб.</div></td><td><div align="center">425 руб.</div></td></tr><tr><td><div align="center">50 шт.</div></td><td><div align="center">935 руб.</div></td><td><div align="center">1220 руб.</div></td><td><div align="center">1140 руб.</div></td><td><div align="center">1330 руб.</div></td><td><div align="center">1425 руб.</div></td></tr><tr><td><div align="center">100 шт.</div></td><td><div align="center">1500 руб.</div></td><td><div align="center">1900 руб.</div></td><td><div align="center">1790 руб.</div></td><td><div align="center">2090 руб.</div></td><td><div align="center">2225 руб.</div></td></tr><tr><td><div align="center">500 шт.</div></td><td><div align="center">6270 руб.</div></td><td><div align="center">7900 руб.</div></td><td><div align="center">7460 руб.</div></td><td><div align="center">8650 руб.</div></td><td><div align="center">9220 руб.</div></td></tr></tbody></table> -->
-					<img class="lazyload" data-src="img/buklet_table1.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-						style="width: 100%;">
+					<img class="lazyload" data-src="img/buklet_table1.png"
+						alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 					<p>В стоимость включена матовая мелованная бумага от 80 до 170гр.</p>
 					<p>С ассортиментом бумаги для листовок можно ознакомиться в разделе <a
 							href="http://mnogovizitok.ru/bumaga.html">&#171;Образцы бумаги</a>&#187;</p>
@@ -6380,8 +6210,8 @@
 							</div>
 						</div>
 						<!-- <table class="catalog" cellspacing="1px"><tbody><tr><th><div align="center">ТИРАЖ</div></th><th><div align="center">90 Г/М</div></th><th><div align="center">115 Г/М</div></th><th><div align="center">150 Г/М</div></th><th><div align="center">200 Г/М</div></th><th><div align="center">300 Г/М</div></th><th><div align="center">ВД. ЛАК 1+1</div></th></tr><tr><td><div align="center">1000 шт.</div></td><td><div align="center">3935 руб.</div></td><td><div align="center">3935 руб.</div></td><td><div align="center">3935 руб.</div></td><td><div align="center">6010 руб.</div></td><td><div align="center">10470 руб.</div></td><td><div align="center">+2850 руб.</div></td></tr><tr><td><div align="center">2000 шт.</div></td><td><div align="center">7865 руб.</div></td><td><div align="center">7865 руб.</div></td><td><div align="center">7865 руб.</div></td><td><div align="center">10890 руб.</div></td><td><div align="center">18240 руб.</div></td><td><div align="center">+3500 руб.</div></td></tr><tr><td><div align="center">5000 шт.</div></td><td><div align="center">14465 руб.</div></td><td><div align="center">15785 руб.</div></td><td><div align="center">17270 руб.</div></td><td><div align="center">20820 руб.</div></td><td><div align="center">29610 руб.</div></td><td><div align="center">+4950 руб.</div></td></tr><tr><td><div align="center">10000 шт.</div></td><td><div align="center">21780 руб.</div></td><td><div align="center">24530 руб.</div></td><td><div align="center">26400 руб.</div></td><td><div align="center">34680 руб.</div></td><td><div align="center">47820 руб.</div></td><td><div align="center">+8100 руб.</div></td></tr><tr><td><div align="center">20000 шт.</div></td><td><div align="center">34485 руб.</div></td><td><div align="center">38115 руб.</div></td><td><div align="center">41745 руб.</div></td><td><div align="center">53460 руб.</div></td><td><div align="center">75180 руб.</div></td><td><div align="center">+13200 руб.</div></td></tr></tbody></table> -->
-						<img class="lazyload" data-src="img/buklet_table2.png" alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров"
-							style="width: 100%;">
+						<img class="lazyload" data-src="img/buklet_table2.png"
+							alt="Стоимость визиток на других видах бумаги уточняйте у наших менеджеров" style="width: 100%;">
 						<p style="text-align: left;"><img class="lazyload wp-image-3065 aligncenter"
 								data-src="wp-content\uploads\2018\08\footer-strip-bg_mal-1024x23.png" alt="" width="579" height="13"
 								srcset="wp-content\uploads\2018\08\footer-strip-bg_mal.png 1024w, wp-content\uploads\2018\08\footer-strip-bg_mal-600x13.png 600w, wp-content\uploads\2018\08\footer-strip-bg_mal-300x7.png 300w, wp-content\uploads\2018\08\footer-strip-bg_mal-768x17.png 768w, wp-content\uploads\2018\08\footer-strip-bg_mal-260x6.png 260w, wp-content\uploads\2018\08\footer-strip-bg_mal-50x1.png 50w, wp-content\uploads\2018\08\footer-strip-bg_mal-150x3.png 150w, wp-content\uploads\2018\08\footer-strip-bg_mal-960x23.png 960w"
@@ -7057,7 +6887,70 @@
 						dottedOverlay: "none",
 						delay: 9000,
 						navigation: {
-							onHoverStop: "off",
+							onHoverStop: "on",
+						},
+						navigation: {
+							touch: {
+								touchenabled: 'on',
+								swipe_threshold: 75,
+								swipe_min_touches: 1,
+								swipe_direction: 'horizontal',
+								drag_block_vertical: true
+							},
+							keyboardNavigation: 'on',
+							keyboard_direction: 'horizontal',
+							mouseScrollNavigation: 'on',
+							mouseScrollReverse: 'reverse',
+							onHoverStop: 'on',
+							bullets: {
+								enable: true,
+								style: 'hesperiden',
+								tmp: '',
+								direction: 'horizontal',
+								rtl: false,
+
+								container: 'slider',
+								h_align: 'center',
+								v_align: 'bottom',
+								h_offset: 0,
+								v_offset: 20,
+								space: 5,
+
+								hide_onleave: false,
+								hide_onmobile: false,
+								hide_under: 0,
+								hide_over: 9999,
+								hide_delay: 200,
+								hide_delay_mobile: 1200
+
+							},
+							arrows: {
+								enable: true,
+								style: 'hesperiden',
+								rtl: false,
+								hide_onleave: false,
+								hide_onmobile: true,
+								hide_under: 0,
+								hide_over: 9999,
+								hide_delay: 200,
+								hide_delay_mobile: 1200,
+
+								left: {
+										container: 'slider',
+										h_align: 'left',
+										v_align: 'center',
+										h_offset: 20,
+										v_offset: 0
+								},
+
+								right: {
+										container: 'slider',
+										h_align: 'right',
+										v_align: 'center',
+										h_offset: 20,
+										v_offset: 0
+								}
+							},
 						},
 						visibilityLevels: [1240, 1024, 778, 480],
 						gridwidth: 1170,
@@ -7071,7 +6964,7 @@
 						shuffle: "off",
 						autoHeight: "off",
 						disableProgressBar: "on",
-						hideThumbsOnMobile: "off",
+						hideThumbsOnMobile: "on",
 						hideSliderAtLimit: 0,
 						hideCaptionAtLimit: 0,
 						hideAllCaptionAtLilmit: 0,
